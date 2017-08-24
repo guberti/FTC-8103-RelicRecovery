@@ -5,6 +5,4 @@ use <../scad_libs/parts.scad>
 
 legs = [true, true, true, true];
 
-round(4) {
-    cube(7);
-}
+linear_extrude(height = 2.5) sensormount();

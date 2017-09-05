@@ -18,3 +18,9 @@ screw = [
     "l", 12,    //long length
     "s", 7      //short length
 ];
+    
+
+function tslot(k) = _(tslot, k);
+tslot = [
+    "o", 12.7   //offset
+];
